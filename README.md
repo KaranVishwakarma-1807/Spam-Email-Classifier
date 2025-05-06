@@ -1,2 +1,68 @@
-# Spam-Email-Classifier
-This project is a machine learning-based spam detection system that classifies emails as "Spam" or "Not Spam" using natural language processing (NLP) and a "Naive Bayes classifier". A simple "Streamlit" interface allows users to interactively test email texts.
+# Spam Email Classifier
+
+This project is a machine learning-based spam detection system that classifies emails as **Spam** or **Not Spam** using natural language processing (NLP) and a **Naive Bayes classifier**. A simple **Streamlit** interface allows users to interactively test email texts.
+
+---
+
+# Features
+
+- Text preprocessing using NLTK
+- TF-IDF feature extraction
+- Multinomial Naive Bayes classification
+- Streamlit-powered web interface
+- Model persistence with `joblib`
+
+---
+
+# Project Structure
+
+spam-email-classifier/
+├── data/
+│ └── spam.csv
+├── models/
+│ ├── spam_classifier.pkl
+│ └── vectorizer.pkl
+├── spam_email_classifier.py
+├── README.md
+└── requirements.txt
+
+---
+
+# Installation
+
+1. **Clone the repository**:
+   git clone https://github.com/yourusername/spam-email-classifier.git
+   cd spam-email-classifier
+2. **Create and activate a virtual environment (optional but recommended)**:
+   python -m venv venv
+   On Mac: source venv/bin/activate
+   On Windows: venv\\Scripts\\activate
+4. **Install dependencies**:
+   pip install -r requirements.txt
+
+---
+
+# Running the App
+
+-Make sure the dataset (spam.csv) is in the data/ folder.
+Then, run:
+  streamlit run spam_email_classifier.py
+
+---
+
+# Dataset
+
+-SMS Spam Collection Dataset
+    https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+-Format:
+    -label: spam or ham
+    -message: email or SMS content
+
+---
+
+# Tech used
+  Python
+  Scikit-learn
+  NLTK
+  Streamlit
+  Pandas, Joblib, Regex
