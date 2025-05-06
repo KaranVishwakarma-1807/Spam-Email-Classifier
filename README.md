@@ -54,20 +54,17 @@ spam-email-classifier/
 
 # Running the App
 
-- Make sure the dataset (spam.csv) is in the 'data/' folder.
-<br/>
-Then, run:
-<br/>
-streamlit run spam_email_classifier.py
+Make sure the dataset (spam.csv) is in the 'data/' folder. Then, run:
+- streamlit run spam_email_classifier.py
 
 ---
 
 # Dataset
 
-- SMS Spam Collection Dataset
-https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
-<br/>
-- Format
+1. **SMS Spam Collection Dataset**
+- https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+2. **Format**
 - label: spam or ham
 - message: email or SMS content
 
