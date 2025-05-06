@@ -40,51 +40,48 @@ spam-email-classifier/
 
 1. **Clone the repository**:
 <br/>
-   git clone https://github.com/yourusername/spam-email-classifier.git
-   <br/>
-   cd spam-email-classifier
-   <br/>
-3. **Create and activate a virtual environment (optional but recommended)**:
-   <br/>
-   python -m venv venv
-   <br/>
-   On Mac: source venv/bin/activate
-   <br/>
-   On Windows: venv\\Scripts\\activate
-   <br/>
-5. **Install dependencies**:
-   <br/>
-   pip install -r requirements.txt
+git clone https://github.com/yourusername/spam-email-classifier.git
+<br/>
+cd spam-email-classifier
+<br/>
+2. **Create and activate a virtual environment (optional but recommended)**:
+<br/>
+python -m venv venv
+<br/>
+On Mac: source venv/bin/activate
+<br/>
+On Windows: venv\\Scripts\\activate
+<br/>
+3. **Install dependencies**:
+<br/>
+pip install -r requirements.txt
 
 ---
 
 # Running the App
 
--Make sure the dataset (spam.csv) is in the data/ folder.
+- Make sure the dataset (spam.csv) is in the data/ folder.
 <br/>
 Then, run:
 <br/>
-  streamlit run spam_email_classifier.py
+streamlit run spam_email_classifier.py
 
 ---
 
 # Dataset
 
--SMS Spam Collection Dataset
+- SMS Spam Collection Dataset
+https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 <br/>
-    https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
-    <br/>
--Format:
-<br/>
-    -label: spam or ham
-    <br/>
-    -message: email or SMS content
+- Format:
+- label: spam or ham
+- message: email or SMS content
 
 ---
 
 # Tech used
-  -Python
-  -Scikit-learn
-  -NLTK
-  -Streamlit
-  -Pandas, Joblib, Regex
+- Python
+- Scikit-learn
+- NLTK
+- Streamlit
+- Pandas, Joblib, Regex
