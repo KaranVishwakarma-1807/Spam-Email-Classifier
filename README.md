@@ -39,19 +39,20 @@ spam-email-classifier/
 # Installation
 
 1. **Clone the repository**:
+
 git clone https://github.com/yourusername/spam-email-classifier.git
-<br/>
 cd spam-email-classifier
-<br/>
-2. **Create and activate a virtual environment (optional but recommended)**:
-<br/>
+
+2. **Create and activate a virtual environment (optional but recommended):**
+
 python -m venv venv
 <br/>
 On Mac: source venv/bin/activate
 <br/>
 On Windows: venv\\Scripts\\activate
-<br/>
-3. **Install dependencies**:
+
+
+3. **Install dependencies:**
 <br/>
 pip install -r requirements.txt
 
