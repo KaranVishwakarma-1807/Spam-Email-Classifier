@@ -17,13 +17,21 @@ This project is a machine learning-based spam detection system that classifies e
 # Project Structure
 
 spam-email-classifier/
+<br/>
 ├── data/
+<br/>
 │ └── spam.csv
+<br/>
 ├── models/
+<br/>
 │ ├── spam_classifier.pkl
+<br/>
 │ └── vectorizer.pkl
+<br/>
 ├── spam_email_classifier.py
+<br/>
 ├── README.md
+<br/>
 └── requirements.txt
 
 ---
@@ -31,13 +39,21 @@ spam-email-classifier/
 # Installation
 
 1. **Clone the repository**:
+<br/>
    git clone https://github.com/yourusername/spam-email-classifier.git
+   <br/>
    cd spam-email-classifier
-2. **Create and activate a virtual environment (optional but recommended)**:
+   <br/>
+3. **Create and activate a virtual environment (optional but recommended)**:
+   <br/>
    python -m venv venv
+   <br/>
    On Mac: source venv/bin/activate
+   <br/>
    On Windows: venv\\Scripts\\activate
-4. **Install dependencies**:
+   <br/>
+5. **Install dependencies**:
+   <br/>
    pip install -r requirements.txt
 
 ---
@@ -45,7 +61,9 @@ spam-email-classifier/
 # Running the App
 
 -Make sure the dataset (spam.csv) is in the data/ folder.
+<br/>
 Then, run:
+<br/>
   streamlit run spam_email_classifier.py
 
 ---
@@ -53,16 +71,20 @@ Then, run:
 # Dataset
 
 -SMS Spam Collection Dataset
+<br/>
     https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+    <br/>
 -Format:
+<br/>
     -label: spam or ham
+    <br/>
     -message: email or SMS content
 
 ---
 
 # Tech used
-  Python
-  Scikit-learn
-  NLTK
-  Streamlit
-  Pandas, Joblib, Regex
+  -Python
+  -Scikit-learn
+  -NLTK
+  -Streamlit
+  -Pandas, Joblib, Regex
