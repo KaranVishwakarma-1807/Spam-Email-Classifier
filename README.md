@@ -73,7 +73,7 @@ streamlit run spam_email_classifier.py
 - SMS Spam Collection Dataset
 https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 <br/>
-- Format:
+- Format
 - label: spam or ham
 - message: email or SMS content
 
