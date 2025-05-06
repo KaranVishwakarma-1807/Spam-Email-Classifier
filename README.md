@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 # Running the App
 
-- Make sure the dataset (spam.csv) is in the data/ folder.
+- Make sure the dataset (spam.csv) is in the 'data/' folder.
 <br/>
 Then, run:
 <br/>
