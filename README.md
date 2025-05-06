@@ -39,7 +39,6 @@ spam-email-classifier/
 # Installation
 
 1. **Clone the repository**:
-<br/>
 git clone https://github.com/yourusername/spam-email-classifier.git
 <br/>
 cd spam-email-classifier
